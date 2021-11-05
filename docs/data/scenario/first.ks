@@ -41,8 +41,8 @@ tf.random = Math.floor(Math.random()*101);
 [endscript]
 [if exp="tf.random>=70"]
 耐えられた！
-Good End[l]
+Good End[l][cm]
 [else]
-耐えられなかった。[l]
+耐えられなかった。[l][cm]
 [endif]
 [jump target=*start]
